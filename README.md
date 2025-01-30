@@ -2,6 +2,17 @@
 
 This project was made to learn about React. It is a simple web application that showcases various weapons.
 
+## Preview
+
+Here are some preview images of the application:
+
+![Preview 1](./previews/preview1.png)
+![Preview 2](./previews/preview2.png)
+![Preview 3](./previews/preview3.png)
+![Preview 4](./previews/preview4.png)
+![Preview 5](./previews/preview5.png)
+Enjoy exploring the Weapon Showcase!
+
 ## Getting Started
 
 To start the project, follow these steps:
@@ -26,14 +37,3 @@ To start the project, follow these steps:
     ```bash
     npx json-server --watch db.json --port 5000
     ```
-
-## Preview
-
-Here are some preview images of the application:
-
-![Preview 1](./previews/preview1.png)
-![Preview 2](./previews/preview2.png)
-![Preview 3](./previews/preview3.png)
-![Preview 4](./previews/preview4.png)
-![Preview 5](./previews/preview5.png)
-Enjoy exploring the Weapon Showcase!
