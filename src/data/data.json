@@ -1,0 +1,40 @@
+{
+  "collections": [
+    {
+      "id": 1,
+      "Rank": "Ultra",
+      "Collection": "ELDERFLAME",
+      "Slogan": "ANCIENT POWER, UNLEASHED FIRE",
+      "Description": "The Elderflame Collection is the first Ultra Edition skin line in VALORANT. The skins are inspired by dragons and have a unique dragon animation when firing the weapon.",
+      "BackgroundImage": "ElderFlame.png",
+      "ThemeColor": "rgb(224, 69, 21)",
+      "Weapons": [
+        {
+          "Name": "FRENZY",
+          "Price": 2475,
+          "Image": "https://static.wikia.nocookie.net/valorant/images/c/c4/Elderflame_Frenzy.png"
+        },
+        {
+          "Name": "JUDGE",
+          "Price": 2475,
+          "Image": "https://static.wikia.nocookie.net/valorant/images/c/c6/Elderflame_Judge.png"
+        },
+        {
+          "Name": "VANDAL",
+          "Price": 2475,
+          "Image": "https://static.wikia.nocookie.net/valorant/images/d/d2/Elderflame_Vandal.png"
+        },
+        {
+          "Name": "OPERATOR",
+          "Price": 2475,
+          "Image": "https://static.wikia.nocookie.net/valorant/images/e/ed/Elderflame_Operator.png"
+        },
+        {
+          "Name": "MELEE",
+          "Price": 4950,
+          "Image": "https://static.wikia.nocookie.net/valorant/images/a/a9/Elderflame_Dagger.png"
+        }
+      ]
+    }
+  ]
+}

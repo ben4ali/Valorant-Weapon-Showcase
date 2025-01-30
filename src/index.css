@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: system-ui;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(20,20,20);
+  color: rgb(225, 225, 225);
+  overflow: hidden;
+}
