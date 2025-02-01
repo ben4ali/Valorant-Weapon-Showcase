@@ -35,5 +35,5 @@ To start the project, follow these steps:
     ```
 5. In a separate terminal, run the JSON server:
     ```bash
-    npx json-server --watch db.json --port 5000
+    npx json-server --watch data/data.json --port 8080
     ```
