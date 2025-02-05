@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://github.com/ben4ali/Valorant-Weapon-Showcase",
   "private": true,
+  "proxy": "http://localhost:3000",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
