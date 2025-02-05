@@ -1,24 +1,23 @@
-import { useFetch } from "../hooks/useFetch";
+import data from "../data";
 
-export const WeaponList = ({collectionId}) =>{
-    
-    const { data: collection, isPending, error } = useFetch('http://localhost:8080/collections/'+collectionId);
+export const WeaponList = ({ collectionId }) => {
+  const collection = data.collections.find((c) => c.id === collectionId);
 
-    let Weapons = collection?.Weapons;
+  const Weapons = collection?.Weapons || [];
 
-    return(
-        <div className="weaponList">
-            {isPending && <div>Loading...</div>}
-            {error && <div>{ error }</div>}
-            {Weapons && Weapons.map((weapon) => (
-                <div className="weaponItem" key={weapon.id}>
-                    <img src={weapon.Image} alt="Weapon" />
-                    <div className="weaponInfo">
-                        <h4>{weapon.Name}</h4>
-                        <p>{weapon.Price}</p>
-                    </div>
-                </div>
-            ))}
+  return (
+    <div className="weaponList">
+      {/* Optionally, you can add a fallback loading or error state if needed */}
+      {Weapons.length === 0 && <div>No weapons found.</div>}
+      {Weapons.map((weapon) => (
+        <div className="weaponItem" key={weapon.id}>
+          <img src={weapon.Image} alt={weapon.Name} />
+          <div className="weaponInfo">
+            <h4>{weapon.Name}</h4>
+            <p>{weapon.Price}</p>
+          </div>
         </div>
-    )
-}
+      ))}
+    </div>
+  );
+};
