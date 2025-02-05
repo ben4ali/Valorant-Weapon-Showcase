@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ben4ali/Valorant-Weapon-Showcase/static/css/main.e4258edf.css",
-    "main.js": "/ben4ali/Valorant-Weapon-Showcase/static/js/main.932fe1c6.js",
+    "main.js": "/ben4ali/Valorant-Weapon-Showcase/static/js/main.e238c66a.js",
     "static/media/ElderFlame.png": "/ben4ali/Valorant-Weapon-Showcase/static/media/ElderFlame.9b1d8b25b6b20a72669a.png",
     "static/media/Oni.webp": "/ben4ali/Valorant-Weapon-Showcase/static/media/Oni.5c1cf7ce47983f2e39aa.webp",
     "static/media/EX.O.webp": "/ben4ali/Valorant-Weapon-Showcase/static/media/EX.O.0c46f9ca372257f8bf90.webp",
@@ -9,10 +9,10 @@
     "static/media/Mystbloom.webp": "/ben4ali/Valorant-Weapon-Showcase/static/media/Mystbloom.9241256d3f110bdae99c.webp",
     "index.html": "/ben4ali/Valorant-Weapon-Showcase/index.html",
     "main.e4258edf.css.map": "/ben4ali/Valorant-Weapon-Showcase/static/css/main.e4258edf.css.map",
-    "main.932fe1c6.js.map": "/ben4ali/Valorant-Weapon-Showcase/static/js/main.932fe1c6.js.map"
+    "main.e238c66a.js.map": "/ben4ali/Valorant-Weapon-Showcase/static/js/main.e238c66a.js.map"
   },
   "entrypoints": [
     "static/css/main.e4258edf.css",
-    "static/js/main.932fe1c6.js"
+    "static/js/main.e238c66a.js"
   ]
 }
